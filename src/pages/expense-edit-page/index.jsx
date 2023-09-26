@@ -65,6 +65,7 @@ export const ExpenseEditPage = () => {
                     name="DateOfAmount"
                     type="date"
                     onChange={onDateChange}
+                    style = {{width: "180px"}}
                 />
                 <Input
                     size='xl' 

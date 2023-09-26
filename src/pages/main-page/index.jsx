@@ -99,6 +99,7 @@ export const MainPage = () => {
                 value={date} 
                 name="DateOfAmount"
                 onChange={dateHandler}
+                style = {{width: "180px"}}
             />
             <Input
                 size='xl' 
