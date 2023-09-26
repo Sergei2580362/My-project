@@ -36,30 +36,10 @@ export const logoutFromApp = createAsyncThunk(
     });
   }
 );
-//   async (_, thunkApi) => {
-//     try {
-//       await logout();
-//     } catch (err) {
-//       console.dir(err);
-//     }
-
-//     return null;
-//   }
-// );
 
 export const registerUser = createAsyncThunk(
   "auth/register",
   async ({ email: userEmail, password }, thunkApi) => {
-  //   const {
-  //     payload: {
-  //       user: { uid, email, displayName },
-  //     },
-  //   } = await register(userEmail, password);
-
-  //   await getUserDoc({ uid, email }); // вот этого у нас нету в данном разделе
-
-  //   return { uid, email, displayName };
-  // }
 
       try {
       let userCredentials = await register(userEmail, password);
@@ -98,8 +78,6 @@ export const signInUser = createAsyncThunk(
     }
   }
 );
-
-// TODO errros on pass length, user existance
 
 const authSlice = createSlice({
   name: "auth",

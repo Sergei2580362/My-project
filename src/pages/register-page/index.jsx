@@ -56,10 +56,6 @@ export const RegisterPage = () => {
           name="password" 
           onChange={changeHandler}
         />
-        {/* <Input 
-          size='xl' 
-          placeholder="Confirm password"
-        /> */}
         <Button 
           size='xl' 
           view='primary' 

@@ -47,14 +47,11 @@ export const ResultTable = ({ selectedSortOption }) => {
   };
 
   const handleConfirmDelete = () => {
-      dispatch(deleteExpense(deleteRowIndex));
-    // Здесь вы можете выполнить удаление строки из данных, используя deleteRowIndex
-    // Закройте модальное окно
-    setIsModalOpen(false);
+    dispatch(deleteExpense(deleteRowIndex)); // Здесь вы можете выполнить удаление строки из данных, используя deleteRowIndex
+    setIsModalOpen(false);   // Закройте модальное окно
   };
 
   const handleCancelDelete = () => {
-    // Отмените удаление и закройте модальное окно
     setDeleteRowIndex(null);
     setIsModalOpen(false);
   };

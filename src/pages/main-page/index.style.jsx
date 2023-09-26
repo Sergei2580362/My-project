@@ -48,10 +48,6 @@ export const RightSideTop = styled.div`
         justify-content: center; /* Выравнивание по горизонтали по центру */
         align-items: center; /* Выравнивание по вертикали по центру */
     }
-        
-        /* & > div { 
-            margin: 20px
-    } */
 `;
 
 export const RightSideBottom = styled.div`
@@ -61,8 +57,4 @@ export const RightSideBottom = styled.div`
         justify-content: center; /* Выравнивание по горизонтали по центру */
         align-items: center; /* Выравнивание по вертикали по центру */
     }
-        
-        /* & > div { 
-            margin: 20px
-    } */
 `;

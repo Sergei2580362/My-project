@@ -10,9 +10,7 @@ import { store } from './redux';
 export const App = () => {
     return (
         <Provider store={store}>       
-        {/* <TodoContextProvider> */}
             <Router/>
-        {/* </TodoContextProvider> */}
         </Provider>
     )
 };

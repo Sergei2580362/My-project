@@ -44,7 +44,7 @@ export const getUserDoc = async ({uid,email}) => {
     if (userData.exists()) {
         return userDoc;
     } else {
-        const userDoc = await setDoc(doc(db, 'users', uid), { //set or add Doc
+        const userDoc = await setDoc(doc(db, 'users', uid), {
             category: [],
             email
         });

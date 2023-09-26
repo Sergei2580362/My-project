@@ -28,7 +28,7 @@ const expenseSlice = createSlice({
                 category: action.payload.selectedCategory,
             })
             
-        }, // сюда писать след.функцию
+        },
         deleteExpense(state, action) {
             state.expensesArray.splice(action.payload, 1);
         },

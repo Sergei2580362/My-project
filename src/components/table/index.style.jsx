@@ -3,8 +3,6 @@ import styled from 'styled-components';
 export const TableContainer = styled.div`
   display: flex;
   justify-content: center; // Горизонтальное выравнивание по центру
-  /* align-items: center; Вертикальное выравнивание по центру */
-  /* height: 100vh; Установите желаемую высоту, чтобы центрировать внутри видимой области */
 `;
 
 export const StyledTable = styled.table`

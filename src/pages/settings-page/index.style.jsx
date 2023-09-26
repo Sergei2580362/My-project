@@ -11,7 +11,6 @@ export const Wrapper = styled.div`
     flex: 1;
     display: flex;
     flex-direction: column;
-    /* padding: 50px; */
     overflow: hidden;
   }
 `;
@@ -27,10 +26,6 @@ export const Top = styled.div`
         & > div { 
             margin: 50px
     }
-
-        /* & > input { 
-            margin: 50px
-    } */
 
         & > button {
             margin: 0 0 20px; /* 20px снизу, 0px с левой и правой стороны */

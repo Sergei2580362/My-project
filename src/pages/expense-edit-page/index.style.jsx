@@ -11,16 +11,14 @@ export const Wrapper = styled.div`
     flex: 1;
     display: flex;
     flex-direction: column;
-    /* padding: 50px; */
-    overflow: hidden; /* Добавьте эту строку */
+    overflow: hidden;
   }
 `;
 
 export const Top = styled.div`
     & {
         flex: 1;
-        justify-content: center; /* Выравнивание по горизонтали по центру */
-        align-items: center; /* Выравнивание по вертикали по центру */
+        justify-content: center;
         margin: 100px 50px 0px 50px;
     }
         

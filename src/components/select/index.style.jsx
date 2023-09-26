@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components';
 
-// Создаем стилизованный компонент для Select
+
 export const CustomSelect = styled.select`
     width: 215px;
     background-color: #FFCFA2;
@@ -14,7 +14,7 @@ export const CustomSelect = styled.select`
     }
 `;
 
-// Создаем стилизованный компонент для опций в Select
+
 export const CustomOption = styled.option`
   padding: 10px;
   font-size: 14px;

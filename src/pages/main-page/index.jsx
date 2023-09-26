@@ -47,7 +47,6 @@ export const MainPage = () => {
   const [ date, setDate ] = useState ('');
   const [ expenseName, setExpenseName] = useState ('');
   const [ amount, setAmount] = useState ('');
-  // const [ category, setCategory] = useState ('');
   const [selectedCategory, setSelectedCategory] = useState(''); // Состояние для хранения выбранной категории
 
   const dateHandler = (event) => {
@@ -80,11 +79,6 @@ export const MainPage = () => {
             )
         )
     };
-
-  // const onSelectChange = (event) => {
-  //   console.log(event.target.value);
-  //   setCategory(event.target.value);
-  // };
 
   const handleSortOptionChange = (event) => {
       console.log("Change sort order");
@@ -150,7 +144,7 @@ export const MainPage = () => {
                 </div>
             </RightSideTop>
             <RightSideBottom>
-                <ResultTable selectedSortOption={selectedSortOption} /> {/* Передайте выбранную опцию сортировки */}
+                <ResultTable selectedSortOption={selectedSortOption} />
             </RightSideBottom>
         </RightSide>
     </Wrapper>)
